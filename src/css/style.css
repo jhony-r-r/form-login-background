@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    background-image: url(../imagens/tecnologia-e-cafe.jpg);
+    background-repeat: no-repeat;
+}
+
+.container-form {
+    width: 100%;
+    margin-top: 15vh;
+}
+
+form {
+    width: 60%;
+    margin-left: 20%;
+    padding: 4rem 0.2rem 4rem;
+}
+
+.container-h1 h1 {
+    font-family: 'Jura', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.container-inputs-login {
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.container-inputs-login input {
+    width: 94%;
+    height: 3vh;
+    margin-left: 3%;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: 1rem 1rem 1rem;
+    font-size: 0.8em;
+    border: 1px solid grey;
+    outline-color: whitesmoke;
+    background-color: white;
+}
+
+.container-inputs-login input:hover {
+    outline-color: rgb(81, 170, 253);
+    transition: 4s;
+}
+
+.container-inputs-login input::placeholder{
+    color: rgb(61, 60, 60);
+}
+
+.container-button {
+    width: 100%;
+    margin-top: 4vh;
+}
+
+.container-button button {
+    width: 36%;
+    height: 4vh;
+    margin-left: 32%;
+    color: white;
+    font-size: 0.9em;
+    font-weight: bolder;
+    text-transform: capitalize;
+    background-color: rgb(49, 108, 163);
+    border: 1px solid whitesmoke;
+    border-radius: 25px;
+    padding: 0.4rem 0.2rem 0.4rem;
+}
+
+.container-button button:hover {
+    background-color:rgb(81, 170, 253);
+    transition: 2s;
+}
+
+.container-forgot-password {
+    margin-top: 4vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container-forgot-password a{
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+    font-weight: bolder;
+}
+
+.container-forgot-password a:hover {
+    color:whitesmoke;
+    transition: 2s;
+    text-decoration: underline;
+}
+
+.container-register{
+    width: 60%;
+    margin-top: 4vh;
+    margin-left: 20%;
+    padding: 2.5rem 2rem 2.5rem;
+}
+
+.container-register p{
+    text-align: center;
+    color: white;
+}
+
+.container-register a {
+    text-decoration: none;
+    color: rgb(81, 170, 253);
+}
+
+.container-register a:hover {
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+@media (min-width: 1200px)
+{
+    form {
+        width: 30%;
+        margin-left: 35%;
+    } 
+}
+
+@media (min-width: 800px) and (max-width: 1280px)
+{
+    form {
+        width: 40%;
+        margin-left: 30%;
+    }
+}
